@@ -1,7 +1,22 @@
+* {
+  list-style: none;
+}
+
+body {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .App {
   text-align: center;
 }
-
+div#root {
+  padding: 2em;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +50,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.band-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }

@@ -1,11 +1,12 @@
 import data from "../../metal.json";
 import React from "react";
 
+var len = Object.keys(data).length;
+
 function MetalMeta() {
-  const obj = JSON.parse(data);
   return (
     <div>
-      <h1>obj[0].band_name</h1>
+      <h1>Bands: {len}</h1>
     </div>
   );
 }

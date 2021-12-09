@@ -1,0 +1,10 @@
+.like-wrapper {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.like-cell {
+  display: table-cell !important;
+  text-align: center !important;
+}
